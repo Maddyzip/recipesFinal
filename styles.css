@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+ font-family: times new Roman;
+  background-color: #e2e3dc;
+  padding: 0;
+  margin: 0;
+}
+
+
+#nav {
+  position: Center;
+  width: 100%;
+    height: 2rem;
+    background-color: none;
+  font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+  Color: #1b812c;
+  font-weight: bold;
+  padding: 2vh;
+ 
+}
+#nav a { 
+  font-size: 80%
+}
+a { text-decoration: none;
+padding-right: 1rem;
+}
+
+#Title {
+  color: #1b812c;
+  padding-left: 30px;
+   font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+#titleBanner {
+    font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+    position: relative;
+  width: 50%;
+  height: 50vh;
+  padding-left: 2vh;
+  background-image: none;  /*url(https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80); */
+  background-size: 50%;
+}
+
+#titleBanner h1 {
+  font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 500%;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  position: absolute;
+  bottom: 3vw;
+  left: 0;
+  line-height: 80%;
+ 
+}
+
+
+#titleBanner h3 {
+  position: absolute ;
+  bottom: 0;
+  left: 0;
+  color: white; 
+  padding: 2vh;
+}
+
+#recipeColumns {
+  padding: 2vh;
+  justify-content: space-between;
+  padding-bottom: 6vh;
+}
+
+#recipeColumns ul,
+ol {
+  margin-top: 2px;
+}
+
+ul {
+  margin-top: 2px;
+  list-style-type: square;
+}
+
+#recipeColumns h4 {
+  color:#1b812c;
+  font-size: 30px;
+  margin: 0;
+    font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+  
+}
+
+.makeblue {color: #87bdd8; }
+ .makeBlue:hover {color: #87bdd8; }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*bruh------------------------------------------media orientation */
+@media screen and (orientation: portrait) and (max-width: 575px) {
+  
+  /* make the photo almost full-screen */
+  #titleBanner {
+    height: 98vh;
+  }
+  
+  /* make the title text huge */
+  #titleBanner h1 {
+    font-size: 900%;
+    margin: 0 0 3vh 3vh;
+  }
+  
+}
+ 
+}
+#recipeColumns div#ingredients { flex-basis: 28%; }
+#recipeColumns div#equipment { flex-basis: 20%; }
+#recipeColumns div#directions { flex-basis: 50%; }
+
+
+/* reduce the left-hand padding of the list items */
+#recipeColumns ul,
+#recipeColumns ol {
+  padding-left: 1.1em;
+}
+
+ul, ol {
+	display: block;
+}
+/*bruhfr-----------------------------------------------Js stuff*/
+
+#titleBanner h1.tp {
+  font-size: 50px;
+}
+
+#titleBanner h1.black {
+  color: #000000;
+}
+
