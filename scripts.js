@@ -45,34 +45,7 @@ function loadFileInto(recipeID, listName, whereTo) {
 
 }
 
-//drop down menu script
 
-
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-
-this.displayHome = function() {
-  
-  function Home(PageURL) {
-    this.page= PageURL;
-    
-   document.querySelectorAll("#body");
-   Layout[0].innerHTML= this.page;
-  }
-}
 // new Recipe object
 function Recipe(recipeName, contributorName, imageURL, recipeID) {
   
@@ -87,16 +60,17 @@ function Recipe(recipeName, contributorName, imageURL, recipeID) {
 		layoutTitle[0].innerHTML = this.recipeName;
 		
 		layoutContributor = document.querySelectorAll("#titleBanner h3");
-		layoutContributor[0].innerHTML = "From " + this.contributor;
+		layoutContributor[0].innerHTML = "Contributed by " + this.contributor;
     
     /*document.querySelector("#titleBanner h1").innerHTML = this.recipeName;
     document.querySelector("#contributor").innerHTML = this.contributor; 
     
     document.querySelector("#titleBanner").style.backgroundImage = "url(" + this.imageURL +")";*/
     		document.getElementById("titleBanner").style.backgroundImage = "url(" + this.imageURL + ")";
-
+    
+    loadFileInto(this.id, "location", "#location h3");
     loadFileInto(this.id, "ingredients", "#ingredients ul");
-    loadFileInto(this.id, "equipment", "#equipment ul");
+    loadFileInto(this.id, "about", "#about ul");
     loadFileInto(this.id, "directions", "#directions ol");
     
   }
@@ -104,23 +78,28 @@ function Recipe(recipeName, contributorName, imageURL, recipeID) {
 }
   
 GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes", "Maddy", "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+  "Red Rum", "Alan Gage", "https://media.istockphoto.com/id/1064130906/photo/pomegranate-cranberry-cocktail.jpg?b=1&s=170667a&w=0&k=20&c=AeKskxxbge777BpLhAZOaYFgd2B0if4tt8AaYqr4X8I=",
  "GoodOldFashionedPancakes"
 );
   
   MushroomSalsaChili = new Recipe( 
-    "Mushroom Salsa Chili", "sarah hoppe", "https://images.unsplash.com/photo-1608376630927-d064ac74866e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=558&q=80", 
+    "Mushroom Salsa Chili", "Alan Gage", "https://images.unsplash.com/photo-1608376630927-d064ac74866e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=558&q=80", 
   "MushroomSalsaChili"
   );
   
 WineMustard = new Recipe(
   "Hal's Wine mustard",
-  "Ally Steigmann",
+  "Alan Gage",
   "https://images.unsplash.com/photo-1532641140-28932037521b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   "WineMustard" 
 );
   
-  
+  HongKongSling = new Recipe(
+  "Hong Kong Sling",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1532641140-28932037521b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  "HongKongSling" 
+);
 window.onload = function() {
   
 	

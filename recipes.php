@@ -5,32 +5,38 @@
 $recipes = Array();
 
 $recipes["GoodOldFashionedPancakes"] = Array();
+$recipes["GoodOldFashionedPancakes"]["location"]= Array();
 $recipes["GoodOldFashionedPancakes"]["ingredients"] = Array();
-$recipes["GoodOldFashionedPancakes"]["equipment"] = Array();
+$recipes["GoodOldFashionedPancakes"]["about"] = Array();
 $recipes["GoodOldFashionedPancakes"]["directions"] = Array();
 
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "1½ cups all-purpose flour";
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "3½ teaspoons baking powder";
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "1¼ teaspoons salt, or more to taste";
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "1¼ cups milk";
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "1 tablespoon white sugar";
-  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "3 tablespoons butter, melted";
+$recipes["GoodOldFashionedPancakes"]["location"][] = "SCOTLAND";
+$recipes["GoodOldFashionedPancakes"]["location"][] = "Olorso, Edinburgh";
+  
+  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "small handful of redcurrants";
+  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "½ measure sloe gin";
+  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "½ measure lemon juice ";
+  $recipes["GoodOldFashionedPancakes"]["ingredients"][] = "½ measure vanilla syrup";
+ 
 
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Stove";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Frying pan";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Measuring cups";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Spatula";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Spoon";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "Large bowl";
-    $recipes["GoodOldFashionedPancakes"]["equipment"][] = "sifter";
-
-      $recipes["GoodOldFashionedPancakes"]["directions"][] = "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth..";
-      $recipes["GoodOldFashionedPancakes"]["directions"][] = "Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.";
+    $recipes["GoodOldFashionedPancakes"]["about"][] = "Secreted within the historic Basil Spence building, this handsome eating and drinking";
+    $recipes["GoodOldFashionedPancakes"]["about"][] = "establishment has an expansive roof terrace that offers spectacular views of Edinburgh Castle";
+    $recipes["GoodOldFashionedPancakes"]["about"][] = "and the Firth of Fourth all year round, while the lounge has a panoramic view over the exinct volcano";
+    $recipes["GoodOldFashionedPancakes"]["about"][] = "of Arthr's Seat. Olorso has one of the most original cocktail lists in the country, with an imaginative";
+    $recipes["GoodOldFashionedPancakes"]["about"][] = "menu and exemplary service at all levels. Add to this the luxurious, comfortable interiors and a unique location.";
+   
+      $recipes["GoodOldFashionedPancakes"]["directions"][] = "Muddle the currants and sloe gin together in the bottom of a cocktail shaker.";
+      $recipes["GoodOldFashionedPancakes"]["directions"][] = " Add the remaining ingredients with some ice cubes, shake, then double strain into a chilled Martini glass.";
+      $recipes["GoodOldFashionedPancakes"]["directions"][] = "Decorate with a string of redcurrants.";
 
 $recipes["MushroomSalsaChili"] = Array();
 $recipes["MushroomSalsaChili"]["ingredients"] = Array();
-$recipes["MushroomSalsaChili"]["equipment"] = Array();
+$recipes["MushroomSalsaChili"]["location"] = Array();
+$recipes["MushroomSalsaChili"]["about"] = Array();
 $recipes["MushroomSalsaChili"]["directions"] = Array();
+
+$recipes["MushroomSalsaChili"]["location"][] = "IRELAND";
+$recipes["MushroomSalsaChili"]["location"][] = "Apartment, Belfast";
   
   $recipes["MushroomSalsaChili"]["ingredients"][] = "1 pound bulk pork sausage";
   $recipes["MushroomSalsaChili"]["ingredients"][] = "2 cans, 16oz each, kidney beans, rinsed and drained";
@@ -49,13 +55,13 @@ $recipes["MushroomSalsaChili"]["directions"] = Array();
   $recipes["MushroomSalsaChili"]["ingredients"][] = "Sour cream";
   $recipes["MushroomSalsaChili"]["ingredients"][] = "Thinly sliced green onions";
 
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Large skillet";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Slow cooker";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Spatula";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Measuring cups";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Can opener";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Knife";
-    $recipes["MushroomSalsaChili"]["equipment"][] = "Cutting Board";
+    $recipes["MushroomSalsaChili"]["about"][] = "Large skillet";
+    $recipes["MushroomSalsaChili"]["about"][] = "Slow cooker";
+    $recipes["MushroomSalsaChili"]["about"][] = "Spatula";
+    $recipes["MushroomSalsaChili"]["about"][] = "Measuring cups";
+    $recipes["MushroomSalsaChili"]["about"][] = "Can opener";
+    $recipes["MushroomSalsaChili"]["about"][] = "Knife";
+    $recipes["MushroomSalsaChili"]["about"][] = "Cutting Board";
 
       $recipes["MushroomSalsaChili"]["directions"][] = "In a large skillet, cook beef and sausage over medium heat 6-8 minutes or until no longer pink, breaking into crumbles.";
       $recipes["MushroomSalsaChili"]["directions"][] = "Drain all the meat and transfer to a 5- or 6-quart slow cooker.";
@@ -65,7 +71,7 @@ $recipes["MushroomSalsaChili"]["directions"] = Array();
 
 $recipes["WineMustard"] = Array();
 $recipes["WineMustard"]["ingredients"] = Array();
-$recipes["WineMustard"]["equipment"] = Array();
+$recipes["WineMustard"]["about"] = Array();
 $recipes["WineMustard"]["directions"] = Array();
 
   $recipes["WineMustard"]["ingredients"][] = "3/4 cup white sugar";
@@ -74,13 +80,35 @@ $recipes["WineMustard"]["directions"] = Array();
   $recipes["WineMustard"]["ingredients"][] = "1/2 cup dry white wine";
   $recipes["WineMustard"]["ingredients"][] = "3 eggs, beaten";
 
-    $recipes["WineMustard"]["equipment"][] = "Double Boiler";
-    $recipes["WineMustard"]["equipment"][] = "Whisk";
-    $recipes["WineMustard"]["equipment"][] = "Container";
+    $recipes["WineMustard"]["about"][] = "Double Boiler";
+    $recipes["WineMustard"]["about"][] = "Whisk";
+    $recipes["WineMustard"]["about"][] = "Container";
 
       $recipes["WineMustard"]["directions"][] = "In the top of a double boiler, whisk together sugar, mustard, vinegar, wine, and eggs.";
       $recipes["WineMustard"]["directions"][] = "Cook over simmering water, whisking constantly, for 8 minutes, or until thick.";
       $recipes["WineMustard"]["directions"][] = "Allow to cool in refrigerator. Store in sealed containers in refrigerator for up to 2 months.";
+
+$recipes["HongKongSling"] = Array();
+$recipes["HongKongSling"]["ingredients"] = Array();
+$recipes["HongKongSling"]["about"] = Array();
+$recipes["HongKongSling"]["directions"] = Array();
+
+  $recipes["WineMustard"]["ingredients"][] = "3/4 cup white sugar";
+  $recipes["WineMustard"]["ingredients"][] = "3/4 cup ground dry mustard";
+  $recipes["WineMustard"]["ingredients"][] = "1/2 cup distilled white vinegar";
+  $recipes["WineMustard"]["ingredients"][] = "1/2 cup dry white wine";
+  $recipes["WineMustard"]["ingredients"][] = "3 eggs, beaten";
+
+    $recipes["WineMustard"]["about"][] = "Double Boiler";
+    $recipes["WineMustard"]["about"][] = "Whisk";
+    $recipes["WineMustard"]["about"][] = "Container";
+
+      $recipes["WineMustard"]["directions"][] = "In the top of a double boiler, whisk together sugar, mustard, vinegar, wine, and eggs.";
+      $recipes["WineMustard"]["directions"][] = "Cook over simmering water, whisking constantly, for 8 minutes, or until thick.";
+      $recipes["WineMustard"]["directions"][] = "Allow to cool in refrigerator. Store in sealed containers in refrigerator for up to 2 months.";
+
+
+
 
 $requestedID = $_GET["recipeID"];
 $requestedID = htmlspecialchars($requestedID);
@@ -99,4 +127,3 @@ $requestedList = filter_var($requestedList, FILTER_SANITIZE_STRING);
        }
 
  Echo $requestedJSON;
-
