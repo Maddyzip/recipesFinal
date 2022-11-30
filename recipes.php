@@ -321,21 +321,72 @@ $recipes["Laila"]["directions"] = Array();
 $recipes["Laila"]["location"][] = "TURKEY";
 $recipes["Laila"]["location"][] = "Laila, Istanbul";
 
-  $recipes["Laila"]["ingredients"][] = "1 measure white peach puree";
-  $recipes["Laila"]["ingredients"][] = "Prosecco (Italian sparkling wine), to top up";
+  $recipes["Laila"]["ingredients"][] = "2 lime wedges";
+  $recipes["Laila"]["ingredients"][] = "2 strawberries";
+  $recipes["Laila"]["ingredients"][] = "4 blueberries";
+  $recipes["Laila"]["ingredients"][] = "dash of mango puree";
+  $recipes["Laila"]["ingredients"][] = "2 measures rasperry vodka";
 
-    $recipes["Laila"]["about"][] = "Founded by the Cipriani family in 1931, Harry's is a piece of";
-    $recipes["Laila"]["about"][] = "Drinking history and has remained virtually unchanged for decades.";
-    $recipes["Laila"]["about"][] = "The bar's list of habitues is endless, from Charlie Chaplin to";
-    $recipes["Laila"]["about"][] = "Nicole Kidman. It even gets a mention in Ernest Hemmingway's novel";
-    $recipes["Laila"]["about"][] = "'Across the River and Into the Trees'. The interior is stylish and";
-    $recipes["Laila"]["about"][] = "charming, as are the staff. Of course, the mention of Harry's invokes";
-    $recipes["Laila"]["about"][] = "the Bellini, a delectable concoction that never tastes quite the same";
-    $recipes["Laila"]["about"][] = "outside its birthplace.";
+    $recipes["Laila"]["about"][] = "Set on the banks of the Bosphorus, Laila has a bar and a club level,";
+    $recipes["Laila"]["about"][] = "as well as the cushioned and candlelit open-air section by the water.";
+    $recipes["Laila"]["about"][] = "The city's mosques provide a dramatic backdrop for the bar, making Laila";
+    $recipes["Laila"]["about"][] = "a simply stunning drinking experience. The bartenders have created a varied";
+    $recipes["Laila"]["about"][] = "selection of original Martinis, using fresh berries and a range of infused";
+    $recipes["Laila"]["about"][] = "vodkas. The signature Laila Cocktail fuses the sweetness of mango and berries";
+    $recipes["Laila"]["about"][] = "with a balancing citrus note.";
    
-      $recipes["Laila"]["directions"][] = "Pour the peach puree and Prosecco into a flute, stir";
-      $recipes["Laila"]["directions"][] = "and decorate with a peach wedge.";
+      $recipes["Laila"]["directions"][] = "Muddle the lime wedges, berries and mango puree in the bottom";
+      $recipes["Laila"]["directions"][] = "of a cocktail shaker. Add the vodka with some ice cubes and shake";
+      $recipes["Laila"]["directions"][] = "vigourously. Double strain into a chilled Martini glass and garnish";
+      $recipes["Laila"]["directions"][] = "with 3 extra blueberries on a cocktail stick";
 
+$recipes["Martini"] = Array();
+$recipes["Martini"]["location"] = Array ();
+$recipes["Martini"]["ingredients"] = Array();
+$recipes["Martini"]["about"] = Array();
+$recipes["Martini"]["directions"] = Array();
+
+$recipes["Martini"]["location"][] = "RUSSIA";
+$recipes["Martini"]["location"][] = "Most, Moscow";
+
+  $recipes["Martini"]["ingredients"][] = "3 measures frozen stolichanya vodka";
+  $recipes["Martini"]["ingredients"][] = "½ measure Noilly Prat";
+ 
+
+    $recipes["Martini"]["about"][] = "A stone's throw from Red Square are the sidewalk terraces of Kuznetsky";
+    $recipes["Martini"]["about"][] = "Most, Moscow's most fashionable district since the 18th century. The Most";
+    $recipes["Martini"]["about"][] = "bar can be found on top of a modern building that looks as if it may well";
+    $recipes["Martini"]["about"][] = "have arrived from outer space. The futuristic concept bar consists of sleek";
+    $recipes["Martini"]["about"][] = "black leather and contrasting neon. Order from the fine list of Champagnes";
+    $recipes["Martini"]["about"][] = "and cocktails, keeping in mind that Russia is not all about vodka and caviar.";
+   
+      $recipes["Martini"]["directions"][] = "Stir the ingredients together in a mixing glass and strain into a chilled";
+      $recipes["Martini"]["directions"][] = "Martini glass. Garnish with olives.";
+
+$recipes["Jenna"] = Array();
+$recipes["Jenna"]["location"] = Array ();
+$recipes["Jenna"]["ingredients"] = Array();
+$recipes["Jenna"]["about"] = Array();
+$recipes["Jenna"]["directions"] = Array();
+
+$recipes["Jenna"]["location"][] = "NORWAY";
+$recipes["Jenna"]["location"][] = "Odeon, Oslo";
+
+  $recipes["Jenna"]["ingredients"][] = "2 measures Bacardi Limon";
+  $recipes["Jenna"]["ingredients"][] = "½ measure lemon juice";
+  $recipes["Jenna"]["ingredients"][] = "4 measures passion fruit juice";
+  $recipes["Jenna"]["ingredients"][] = "2 lime wedges";
+
+    $recipes["Jenna"]["about"][] = "This classically styled bar is situated in the Majorstuen district and, once";
+    $recipes["Jenna"]["about"][] = "through the doors, you will find a lively, minimalist lounge packed with media";
+    $recipes["Jenna"]["about"][] = "types. THe bartnders mix great cocktails using plenty of premium vodka, a favourite";
+    $recipes["Jenna"]["about"][] = "tripple in these northern regions. The signature cocktail, the Jenna J, is a long,";
+    $recipes["Jenna"]["about"][] = "refreshing drink with the sweetness of passion fruit balanced by fresh lemon and an";
+    $recipes["Jenna"]["about"][] = "underlying citrus note from the infused white rum.";
+   
+      $recipes["Jenna"]["directions"][] = "Build the ingredients over ice cubes in a highball glass";
+      $recipes["Jenna"]["directions"][] = "Squeeze the 2 lime wedges over the drink and then drop them in.";
+      $recipes["Jenna"]["directions"][] = "serve with long straws.";
 
 
 

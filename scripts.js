@@ -185,6 +185,18 @@ Laila = new Recipe(
   "https://st2.depositphotos.com/1000260/6997/i/600/depositphotos_69977757-stock-photo-blueberry-cocktail-on-black.jpg",
   "Laila" 
 );
+Martini = new Recipe(
+  "Naked Vodkatini",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1575023782549-62ca0d244b39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+  "Martini" 
+);
+Jenna = new Recipe(
+  "Jenna J",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1522128418537-427fea304e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "Jenna" 
+);
 window.onload = function() {
   
 	
