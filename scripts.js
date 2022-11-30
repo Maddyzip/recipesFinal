@@ -68,6 +68,22 @@ function filterFunction() {
   }
 }
 
+//drop down button no search
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function dropFunction() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn2')) {
+  var myDropdown = document.getElementById("myDropdown2");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
 // new Recipe object
 function Recipe(recipeName, contributorName, imageURL, recipeID) {
   
@@ -196,6 +212,27 @@ Jenna = new Recipe(
   "Alan Gage",
   "https://images.unsplash.com/photo-1522128418537-427fea304e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   "Jenna" 
+);
+
+Hazelnut = new Recipe(
+  "Strawberry & Hazelnut Lassi",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1502719414926-613118be79d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+  "Hazelnut" 
+);
+
+Mango = new Recipe(
+  "Frozen Mango Daiquiri",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/1155255470/photo/mango-coconut-daiquiri-with-a-lime-twist.jpg?s=612x612&w=0&k=20&c=D6qJQPzdXZDGCNCFaieq0phVC5-nPdGw6YxOqEJ_ZXg=",
+  "Mango" 
+);
+
+Sea = new Recipe(
+  "Sea Breeze",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/890771104/photo/an-alcoholic-cosmopolitan-cocktail-is-on-the-bar-space-for-text.jpg?s=612x612&w=0&k=20&c=aAxOqfiSRHmy--xP6XjH-us6vrdS6RfuEuQH-ZA3i34=",
+  "Sea" 
 );
 window.onload = function() {
   

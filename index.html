@@ -18,63 +18,69 @@
   <link rel="stylesheet" href="styles.css" media="all">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.dropbtn {
-  background-color: none;
-  color: #1b812c;
-  padding: 16px;
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
   font-size: 16px;
   font-weight: bold;
+  color: #1b812c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-weight: bold;
+  font-size: 16px;  
   border: none;
-  cursor: pointer;
-   font-family: 'Press Start 2P', cursive;
-font-family: 'Roboto', sans-serif;
+  outline: none;
+  color: #1b812c;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #E7E7E7;
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #87bdd8;
 }
 
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 2vh;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
+.subnav-content {
   display: none;
   position: absolute;
-  background-color: #f6f6f6;
-  min-width: 130px;
-  overflow: auto;
-  border: 1px solid #ddd;
+  left: 0;
+  background-color: none;
+  width: 100%;
   z-index: 1;
 }
 
-.dropdown-content a {
+.subnav-content a {
+  float: left;
   color: #1b812c;
-  padding: 1px;
   text-decoration: none;
-  display: block;
-  background-size: 10px;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.subnav-content a:hover {
+  background-color: #eee;
+  color: #1b812c;
+}
 
-.show {display: block;}
+.subnav:hover .subnav-content {
+  display: block;
+}
 </style>
   
+ 
 <!-- external and on-page JavaScript goes here -->
 <script type="text/javascript" src="scripts.js" defer></script>
   
@@ -86,10 +92,11 @@ font-family: 'Roboto', sans-serif;
   
   <div id= "nav" >
     
-   <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">MENU</button>
-  <div id="myDropdown" class="dropdown-content">
-    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+  
+    
+  <div class="subnav">
+    <button class="subnavbtn">EUROPE <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
     <a onclick="GoodOldfashionedPancakes.displayRecipe();"> Red Rum</a> 
 		<a onclick=" MushroomSalsaChili.displayRecipe();"> Abbey Road</a>
     <a onclick="WineMustard.displayRecipe();"> Razzmopolitan</a>
@@ -107,6 +114,23 @@ font-family: 'Roboto', sans-serif;
     <a onclick="Jenna.displayRecipe();">Jenna J</a>
      </div>
   </div>
+    
+      <div class="subnav">
+    <button class="subnavbtn">ASIA <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+    <a onclick="Hazelnut.displayRecipe();"> Strawberry & Hazelnut Lassi</a> 
+		<a onclick="Mango.displayRecipe();"> Frozen Mango Daiquiri</a>
+    <a onclick="Sea.displayRecipe();"> Sea Breeze</a>
+    <a onclick="Glamour.displayRecipe();"> The Glamour Martini</a>
+    <a onclick="Aria.displayRecipe();"> Aria Classic</a>
+    <a onclick="Cucumber.displayRecipe();"> Cucumber Saketini</a>
+    <a onclick="Dragon.displayRecipe();"> Dragon's Fire</a>
+    <a onclick="Horizon.displayRecipe();"> Horizon</a>
+    <a onclick="Rollin.displayRecipe();"> Rollin' Stoned</a>
+    <a onclick="Sling.displayRecipe();"> Singapore Sling</a>
+     </div>
+  </div>
+   
 </div>
   
   

@@ -48,7 +48,14 @@ padding-right: 1rem;
    font-family: 'Press Start 2P', cursive;
 font-family: 'Roboto', sans-serif;
 }
-
+#Title h1{
+  font-size: 150%;
+  color: #1b812c;
+  padding-left: 30px;
+  padding-right: 100px;
+   font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+}
 #titleBanner {
     font-family: 'Press Start 2P', cursive;
 font-family: 'Roboto', sans-serif;

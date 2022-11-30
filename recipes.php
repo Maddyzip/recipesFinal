@@ -388,6 +388,116 @@ $recipes["Jenna"]["location"][] = "Odeon, Oslo";
       $recipes["Jenna"]["directions"][] = "Squeeze the 2 lime wedges over the drink and then drop them in.";
       $recipes["Jenna"]["directions"][] = "serve with long straws.";
 
+$recipes["Hazelnut"] = Array();
+$recipes["Hazelnut"]["location"] = Array ();
+$recipes["Hazelnut"]["ingredients"] = Array();
+$recipes["Hazelnut"]["about"] = Array();
+$recipes["Hazelnut"]["directions"] = Array();
+
+$recipes["Hazelnut"]["location"][] = "INDIA";
+$recipes["Hazelnut"]["location"][] = "Indigo, Mumbai";
+
+  $recipes["Hazelnut"]["ingredients"][] = "2 strawberries";
+  $recipes["Hazelnut"]["ingredients"][] = "⅓ banana";
+  $recipes["Hazelnut"]["ingredients"][] = "1 measure Frangelico";
+  $recipes["Hazelnut"]["ingredients"][] = "1 measure Baileys";
+  $recipes["Hazelnut"]["ingredients"][] = "2 measures yogurt";
+  $recipes["Hazelnut"]["ingredients"][] = "3 mint leaves";
+
+    $recipes["Hazelnut"]["about"][] = "The restaurant at Indigo was recently voted one of the top 100 in the world;";
+    $recipes["Hazelnut"]["about"][] = "however, the distinctive decor and the delicious (and very potent) cocktails";
+    $recipes["Hazelnut"]["about"][] = "are the real highlight at this Mumbai nightspot. On the floor above the starkly";
+    $recipes["Hazelnut"]["about"][] = "minimalist restaurant is Indigo's terrace and cigar bar, the latter decorated in";
+    $recipes["Hazelnut"]["about"][] = "the deepest blue - hence the name. Indigo reflects the colorful, vibrant culture of";
+    $recipes["Hazelnut"]["about"][] = "the city and you're likely to spot a few top Bollywood stars either perched at the";
+    $recipes["Hazelnut"]["about"][] = "or gyrating wildly on the dance floor.";
+
+      $recipes["Hazelnut"]["directions"][] = "Place all the ingredients in a blender and process with a small ";
+      $recipes["Hazelnut"]["directions"][] = "scoop of crushed ice until smooth. Serve in a tall sling glass";
+      $recipes["Hazelnut"]["directions"][] = "and decorate with a mint sprig.";
+
+$recipes["Mango"] = Array();
+$recipes["Mango"]["location"] = Array ();
+$recipes["Mango"]["ingredients"] = Array();
+$recipes["Mango"]["about"] = Array();
+$recipes["Mango"]["directions"] = Array();
+
+$recipes["Mango"]["location"][] = "INDIA";
+$recipes["Mango"]["location"][] = "Solypse Cafe, Goa";
+
+  $recipes["Mango"]["ingredients"][] = "½ mango";
+  $recipes["Mango"]["ingredients"][] = "1 measure lime juice";
+  $recipes["Mango"]["ingredients"][] = "1 teaspoon powdered white sugar";
+  $recipes["Mango"]["ingredients"][] = "2 measures white rum";
+
+    $recipes["Mango"]["about"][] = "The Solypse Cafe is the ideal pit-stop for a late afternoon drink before heading";
+    $recipes["Mango"]["about"][] = "up to the Nine Bar on the cliff-top above Ozran Beach to check out the sunset.";
+    $recipes["Mango"]["about"][] = "They serve a wonderful range of fresh fruit cocktails- - mostly rum- and vodka-";
+    $recipes["Mango"]["about"][] = "based, although non-alcoholic varieties are also available. The fresh ingredients";
+    $recipes["Mango"]["about"][] = "are selected from the markets each day, so the menu changes according to what is in";
+    $recipes["Mango"]["about"][] = "season. Made frappe-style with crushed ice in a blender, these concoctions are a";
+    $recipes["Mango"]["about"][] = "reviving antidote to the intense humidity of Goa.";
+
+      $recipes["Mango"]["directions"][] = "Place all the ingredients in a blender and process with a small";
+      $recipes["Mango"]["directions"][] = "scoop of crushed ice until smooth. Serve in any large glass ";
+      $recipes["Mango"]["directions"][] = "(they are not fussy at Solypse), and decorate with slices of ripe mango.";
+
+$recipes["Sea"] = Array();
+$recipes["Sea"]["location"] = Array ();
+$recipes["Sea"]["ingredients"] = Array();
+$recipes["Sea"]["about"] = Array();
+$recipes["Sea"]["directions"] = Array();
+
+$recipes["Sea"]["location"][] = "MALDIVES";
+$recipes["Sea"]["location"][] = "'Naiboli Bar' at the Banyan Tree, Vabbinfaru";
+
+  $recipes["Sea"]["ingredients"][] = "2 measures vodka";
+  $recipes["Sea"]["ingredients"][] = "4 measures cranberry juice";
+  $recipes["Sea"]["ingredients"][] = "2 measures pink grapefruit juice";
+  $recipes["Sea"]["ingredients"][] = "2 lime wedges";
+
+    $recipes["Sea"]["about"][] = "Cast away on a secluded coral atoll in the Maldives archipelago, Vabbinfaru";
+    $recipes["Sea"]["about"][] = "Island is the epitome of tropical paradise, particularly at sunset. It provides";
+    $recipes["Sea"]["about"][] = "the perfect backdrop for the Naiboli Bar, which serves a small but well-chosen";
+    $recipes["Sea"]["about"][] = "selection of crisp white wines, Champagnes, Asian beers and some delicious";
+    $recipes["Sea"]["about"][] = "cocktails. The Mojitos are worthy of particular mention: made with care, plently";
+    $recipes["Sea"]["about"][] = "of ice and a variety of fresh fruit flavours, the choise depends on who is running";
+    $recipes["Sea"]["about"][] = "the bar on any particular day. The star of the bar, however, is the Sea Breeze";
+    $recipes["Sea"]["about"][] = "made with freshly squeezed pink grapefruit juice.";
+
+      $recipes["Sea"]["directions"][] = "Pour the vodka and fruit juices into a large glass over ice.";
+      $recipes["Sea"]["directions"][] = "Squeeze over the lime wedges and stir lightly before serving.";
+
+$recipes["Glamour"] = Array();
+$recipes["Glamour"]["location"] = Array ();
+$recipes["Glamour"]["ingredients"] = Array();
+$recipes["Glamour"]["about"] = Array();
+$recipes["Glamour"]["directions"] = Array();
+
+$recipes["Glamour"]["location"][] = "CHINA";
+$recipes["Glamour"]["location"][] = "The Glamour Bar, Shanghai";
+
+  $recipes["Glamour"]["ingredients"][] = "1½ measures vodka";
+  $recipes["Glamour"]["ingredients"][] = "½ measure cherry brandy";
+  $recipes["Glamour"]["ingredients"][] = "2 measures bloof orange juice";
+  $recipes["Glamour"]["ingredients"][] = "½ measure lime juice";
+
+    $recipes["Glamour"]["about"][] = "'Shanghai is ready for a bar for grown-ups,' announced owner Michelle Garnaut";
+    $recipes["Glamour"]["about"][] = "just prior to the 2001 opening of her Glamour Bar as part of world-famous";
+    $recipes["Glamour"]["about"][] = "M-on-the-Bund restaurant. And glamourous it certainly is. Reminiscent of a";
+    $recipes["Glamour"]["about"][] = "1930s Hollywood film set, the shimmering interior features silver-dipped";
+    $recipes["Glamour"]["about"][] = "columns, curtains of sparkling crystal and fine detailing in copper, nickel, and";
+    $recipes["Glamour"]["about"][] = "bronze. An extensive, leather-bound list of classic and contemporary cocktails";
+    $recipes["Glamour"]["about"][] = "sits on top of the gleaming metal bar; if you are in any doubt, simply order the";
+    $recipes["Glamour"]["about"][] = "signature Glamour Martini.";
+
+      $recipes["Glamour"]["directions"][] = "Pour all the ingredients into a cocktail shaer with some ice";
+      $recipes["Glamour"]["directions"][] = "cubes, shake well and strain into a chilled Martini glass.";
+      $recipes["Glamour"]["directions"][] = "Decorate with a twist of orange.";
+
+
+
+
 
 
 
