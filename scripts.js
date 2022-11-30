@@ -83,14 +83,14 @@ GoodOldfashionedPancakes = new Recipe(
 );
   
   MushroomSalsaChili = new Recipe( 
-    "Mushroom Salsa Chili", "Alan Gage", "https://images.unsplash.com/photo-1608376630927-d064ac74866e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=558&q=80", 
+    "Abbey Road", "Alan Gage", "https://images.unsplash.com/photo-1517620430776-0ec904756579?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGxlbW9uJTIwbWludCUyMGNvY2t0YWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60", 
   "MushroomSalsaChili"
   );
   
 WineMustard = new Recipe(
-  "Hal's Wine mustard",
+  "Razzmopolitan",
   "Alan Gage",
-  "https://images.unsplash.com/photo-1532641140-28932037521b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  "https://images.unsplash.com/photo-1563223771-5fe4038fbfc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHxSYXNwYmVycnklMjBjb2NrdGFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   "WineMustard" 
 );
   
