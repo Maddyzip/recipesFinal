@@ -45,6 +45,28 @@ function loadFileInto(recipeID, listName, whereTo) {
 
 }
 
+//dropdown & search 
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
 
 // new Recipe object
 function Recipe(recipeName, contributorName, imageURL, recipeID) {
@@ -143,6 +165,26 @@ Mojito = new Recipe(
   "Mojito" 
 );
 
+Grappa = new Recipe(
+  "Grappa Manhattan",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1621289793044-04a469c0eaf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+  "Grappa" 
+);
+
+Bellini = new Recipe(
+  "Bellini",
+  "Alan Gage",
+  "https://st4.depositphotos.com/4441483/27682/i/600/depositphotos_276821916-stock-photo-layered-bellini-cocktail-with-peaches.jpg",
+  "Bellini" 
+);
+
+Laila = new Recipe(
+  "Laila Cocktail",
+  "Alan Gage",
+  "https://st2.depositphotos.com/1000260/6997/i/600/depositphotos_69977757-stock-photo-blueberry-cocktail-on-black.jpg",
+  "Laila" 
+);
 window.onload = function() {
   
 	

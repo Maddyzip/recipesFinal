@@ -16,9 +16,61 @@
 
   <!-- external and on-page CSS goes here -->
   <link rel="stylesheet" href="styles.css" media="all">
-  <style>
-    /* on-page CSS, if any, goes here */
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 2vh;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 130px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #1b812c;
+  padding: 1px;
+  text-decoration: none;
+  display: block;
+  background-size: 10px;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
   
 <!-- external and on-page JavaScript goes here -->
 <script type="text/javascript" src="scripts.js" defer></script>
@@ -30,11 +82,11 @@
 <body>
   
   <div id= "nav" >
-     <div class="dropdown">
+    
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
-     <button onclick="myFunction()" ></button>
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-   
     <a onclick="GoodOldfashionedPancakes.displayRecipe();"> Red Rum</a> 
 		<a onclick=" MushroomSalsaChili.displayRecipe();"> Abbey Road</a>
     <a onclick="WineMustard.displayRecipe();"> Razzmopolitan</a>
@@ -45,7 +97,10 @@
     <a onclick="Daiquiri.displayRecipe();"> Strawberry & Mint Daiquiri</a>
     <a onclick="Boadas.displayRecipe();"> The Boadas Cocktail</a>
     <a onclick="Mojito.displayRecipe();"> Pineapple Mojito</a>
-    
+    <a onclick="Grappa.displayRecipe();"> Grappa Manhattan</a>
+    <a onclick="Bellini.displayRecipe();">Bellini</a>
+    <a onclick="Laila.displayRecipe();">Laila Cocktail</a>
+     </div>
   </div>
 </div>
   

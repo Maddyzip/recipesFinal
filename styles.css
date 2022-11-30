@@ -14,7 +14,7 @@ body {
 #nav {
   position: Center;
   width: 100%;
-    height: 2rem;
+    height: 4rem;
     background-color: none;
   font-family: 'Press Start 2P', cursive;
 font-family: 'Roboto', sans-serif;
@@ -24,6 +24,7 @@ font-family: 'Roboto', sans-serif;
  
 }
 #nav a { 
+   padding-top: 20px;
   font-size: 80%
 }
 a { text-decoration: none;
@@ -154,4 +155,7 @@ ul, ol {
 #titleBanner h1.black {
   color: #000000;
 }
+
+
+/* Drop down*/
 

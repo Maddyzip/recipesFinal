@@ -264,6 +264,77 @@ $recipes["Mojito"]["location"][] = "Chicote, Madrid";
       $recipes["Mojito"]["directions"][] = "top up with the pineapple juice and stir. Garnish with a pineapple wedge and";
       $recipes["Mojito"]["directions"][] = "a mint sprig.";
 
+$recipes["Grappa"] = Array();
+$recipes["Grappa"]["location"] = Array ();
+$recipes["Grappa"]["ingredients"] = Array();
+$recipes["Grappa"]["about"] = Array();
+$recipes["Grappa"]["directions"] = Array();
+
+$recipes["Grappa"]["location"][] = "ITALY";
+$recipes["Grappa"]["location"][] = "Crystal Bar, Rome";
+
+  $recipes["Grappa"]["ingredients"][] = "2 measures grappa";
+  $recipes["Grappa"]["ingredients"][] = "1 measure Martini Rosso";
+  $recipes["Grappa"]["ingredients"][] = "½ measure Maraschino liquer";
+  $recipes["Grappa"]["ingredients"][] = "2 dashes of Angostura bitters";
+
+    $recipes["Grappa"]["about"][] = "For many years, Rome's via Margutta was renowned for its bohemian enclave of artists and film-makers.";
+    $recipes["Grappa"]["about"][] = "These days, it is famous with hip Roman socialites and savvy expatriates for Hotel Art and its Crystal";
+    $recipes["Grappa"]["about"][] = "Bar. Housed inside a former 19th century chapel, the Hotel Art glories in vaulted ceilings, elaborate";
+    $recipes["Grappa"]["about"][] = "frescoes and stained glass windows. Across the cavernous lobby is a space-age pod that houses the Crystal";
+    $recipes["Grappa"]["about"][] = "Bar; with colour-coded, individually commissioned artwork adorning its walls. On Friday or Saturday night";
+    $recipes["Grappa"]["about"][] = "when it is in full swing, the bar serves up a delicious selection of cocktails until the small hours.";
+   
+      $recipes["Grappa"]["directions"][] = "Stir together all the ingredients with ice in a mixing glass. Strain into a";
+      $recipes["Grappa"]["directions"][] = "chilled Martini glass and decorate with an olive.";
+    
+$recipes["Bellini"] = Array();
+$recipes["Bellini"]["location"] = Array ();
+$recipes["Bellini"]["ingredients"] = Array();
+$recipes["Bellini"]["about"] = Array();
+$recipes["Bellini"]["directions"] = Array();
+
+$recipes["Bellini"]["location"][] = "ITALY";
+$recipes["Bellini"]["location"][] = "Harry's Bar, Venice";
+
+  $recipes["Bellini"]["ingredients"][] = "1 measure white peach puree";
+  $recipes["Bellini"]["ingredients"][] = "Prosecco (Italian sparkling wine), to top up";
+
+    $recipes["Bellini"]["about"][] = "Founded by the Cipriani family in 1931, Harry's is a piece of";
+    $recipes["Bellini"]["about"][] = "Drinking history and has remained virtually unchanged for decades.";
+    $recipes["Bellini"]["about"][] = "The bar's list of habitues is endless, from Charlie Chaplin to";
+    $recipes["Bellini"]["about"][] = "Nicole Kidman. It even gets a mention in Ernest Hemmingway's novel";
+    $recipes["Bellini"]["about"][] = "'Across the River and Into the Trees'. The interior is stylish and";
+    $recipes["Bellini"]["about"][] = "charming, as are the staff. Of course, the mention of Harry's invokes";
+    $recipes["Bellini"]["about"][] = "the Bellini, a delectable concoction that never tastes quite the same";
+    $recipes["Bellini"]["about"][] = "outside its birthplace.";
+   
+      $recipes["Bellini"]["directions"][] = "Pour the peach puree and Prosecco into a flute, stir";
+      $recipes["Bellini"]["directions"][] = "and decorate with a peach wedge.";
+
+$recipes["Laila"] = Array();
+$recipes["Laila"]["location"] = Array ();
+$recipes["Laila"]["ingredients"] = Array();
+$recipes["Laila"]["about"] = Array();
+$recipes["Laila"]["directions"] = Array();
+
+$recipes["Laila"]["location"][] = "TURKEY";
+$recipes["Laila"]["location"][] = "Laila, Istanbul";
+
+  $recipes["Laila"]["ingredients"][] = "1 measure white peach puree";
+  $recipes["Laila"]["ingredients"][] = "Prosecco (Italian sparkling wine), to top up";
+
+    $recipes["Laila"]["about"][] = "Founded by the Cipriani family in 1931, Harry's is a piece of";
+    $recipes["Laila"]["about"][] = "Drinking history and has remained virtually unchanged for decades.";
+    $recipes["Laila"]["about"][] = "The bar's list of habitues is endless, from Charlie Chaplin to";
+    $recipes["Laila"]["about"][] = "Nicole Kidman. It even gets a mention in Ernest Hemmingway's novel";
+    $recipes["Laila"]["about"][] = "'Across the River and Into the Trees'. The interior is stylish and";
+    $recipes["Laila"]["about"][] = "charming, as are the staff. Of course, the mention of Harry's invokes";
+    $recipes["Laila"]["about"][] = "the Bellini, a delectable concoction that never tastes quite the same";
+    $recipes["Laila"]["about"][] = "outside its birthplace.";
+   
+      $recipes["Laila"]["directions"][] = "Pour the peach puree and Prosecco into a flute, stir";
+      $recipes["Laila"]["directions"][] = "and decorate with a peach wedge.";
 
 
 
