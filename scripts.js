@@ -121,6 +121,28 @@ Fizz = new Recipe(
   "https://images.unsplash.com/photo-1612547854156-3aae03949fed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9yYW5nZSUyMHBlZWwlMjBjb2NrdGFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   "Fizz" 
 );
+
+Daiquiri = new Recipe(
+  "Strawberry & Mint Daiquiri",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1438522014717-d7ce32b9bab9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+  "Daiquiri" 
+);
+
+Boadas = new Recipe(
+  "The Boadas Cocktail",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1521483632781-413ac2a35ee6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZXJyeSUyMGNvY2t0YWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "Boadas" 
+);
+
+Mojito = new Recipe(
+  "Pineapple Mojito",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/534030630/photo/gin-and-lime-cocktail-with-pineapple-and-ice-served-cold.jpg?s=612x612&w=0&k=20&c=36rJ_bBwwC8BbN6qO2UQpvX7_7PXng4SJwJQ4bMKxN0=",
+  "Mojito" 
+);
+
 window.onload = function() {
   
 	

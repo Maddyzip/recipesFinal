@@ -174,25 +174,95 @@ $recipes["Fizz"]["directions"] = Array();
 $recipes["Fizz"]["location"][] = "FRANCE";
 $recipes["Fizz"]["location"][] = "Le Loft, Cannes";
 
-  $recipes["Fizz"]["ingredients"][] = "2 measures vodka";
-  $recipes["Fizz"]["ingredients"][] = "dash of lemon juice";
-  $recipes["Fizz"]["ingredients"][] = "Worcestershire sauce, to taste";
-  $recipes["Fizz"]["ingredients"][] = "tomato juice, to top up";
-  $recipes["Fizz"]["ingredients"][] = "½ teaspoon cayenne pepper";
-  $recipes["Fizz"]["ingredients"][] = "salt and black pepper";
+  $recipes["Fizz"]["ingredients"][] = "1½ measures sloe gin";
+  $recipes["Fizz"]["ingredients"][] = "½ measure lemon juice";
+  $recipes["Fizz"]["ingredients"][] = "½ measure sugar syrup";
+  $recipes["Fizz"]["ingredients"][] = "Champagne, to top up";
 
-    $recipes["Fizz"]["about"][] = "In 1911 Harry Mackalone was hired to run a parisan bar called Clancy's. The";
-    $recipes["Fizz"]["about"][] = "Eponymous Clancy had fled New York following a thwarted horce-racing scam,";
-    $recipes["Fizz"]["about"][] = "briging his bar, piece by piece, from Manhattan's East Side to Paris. After";
-    $recipes["Fizz"]["about"][] = "the Great War, Harry took over the bar and renamed it, hiring the legendary";
-    $recipes["Fizz"]["about"][] = "'Pete' Petoit. inventor of the Bloody Mary. Harry's became the place to be for";
-    $recipes["Fizz"]["about"][] = "American expatriates and hip Europeans alike, and was immoralized in the writings";
-    $recipes["Fizz"]["about"][] = "of Ernest Hemmingway and F. Scott Fitzgerald.";
+    $recipes["Fizz"]["about"][] = "There is more to Cannes than just the annual film festival - seek out Le Loft";
+    $recipes["Fizz"]["about"][] = "on rue de Docteur Monod, right in the heart of La Croisette, the town centre, An";
+    $recipes["Fizz"]["about"][] = "ultra-contemporary lounge bar in the New York style, it boasts what are arguably";
+    $recipes["Fizz"]["about"][] = "the most comforable sofas in Europe. The relaxed ambience and low-key music provide";
+    $recipes["Fizz"]["about"][] = "the perfect back-drop to a chic gathering of fun-loving fold enjoying a diverse selection";
+    $recipes["Fizz"]["about"][] = "of predominantly Martini-style cocktails and Champagne-charged concoctions.";
    
-      $recipes["Fizz"]["directions"][] = "Pour the vodka and lemon juice over ice in a highball glass, add a little";
-      $recipes["Fizz"]["directions"][] = "Worcestershire sauce and top up with tomato juice. Season with salt and both";
-      $recipes["Fizz"]["directions"][] = "peppers, stir to chill and garnish with lime wedges.";
+      $recipes["Fizz"]["directions"][] = "Shake the sloe gin, lemon juice, and syrup together in a cocktail shaker with";
+      $recipes["Fizz"]["directions"][] = "ice and strain intoa chilled Champagne flute. Top up with Champagne, stir and";
+      $recipes["Fizz"]["directions"][] = "decorate with a lemon twist.";
 
+$recipes["Daiquiri"] = Array();
+$recipes["Daiquiri"]["location"] = Array ();
+$recipes["Daiquiri"]["ingredients"] = Array();
+$recipes["Daiquiri"]["about"] = Array();
+$recipes["Daiquiri"]["directions"] = Array();
+
+$recipes["Daiquiri"]["location"][] = "MONACO";
+$recipes["Daiquiri"]["location"][] = "Zebra Square, Monte Carlo";
+
+  $recipes["Daiquiri"]["ingredients"][] = "3 strawberries";
+  $recipes["Daiquiri"]["ingredients"][] = "dash of strawberry syrup";
+  $recipes["Daiquiri"]["ingredients"][] = "6 mint leaves";
+  $recipes["Daiquiri"]["ingredients"][] = "2 measures golden rum";
+  $recipes["Daiquiri"]["ingredients"][] = "2 measures of lime juice";
+
+    $recipes["Daiquiri"]["about"][] = "The best time to visit Zebra Square is during Grand Prix weekend. If you can get past the closely";
+    $recipes["Daiquiri"]["about"][] = "guareded door, you'll be witness to some of the most extravagant partying anywhere on the planet";
+    $recipes["Daiquiri"]["about"][] = "as visiting celebrities rub shoulders with the local glitterati. The spacious verandah, appointed";
+    $recipes["Daiquiri"]["about"][] = "with luxurious outdoor furniture, is the ideal vantage-point to conduct a bit of celebrity spotting";
+    $recipes["Daiquiri"]["about"][] = "while you sample one of Zebra Square's tempting cocktails. Otherwise, it is a perfect place to enjoy";
+    $recipes["Daiquiri"]["about"][] = "the panoramic sea view and watch the yachts coming and going from the famous harbour.";
+   
+      $recipes["Daiquiri"]["directions"][] = "Muddle the strawberries, syrup and mint leaves in the bottom of a cocktail shaker.";
+      $recipes["Daiquiri"]["directions"][] = "Add the rum and lime juice, shake with ice and double strain into a chilled slim";
+      $recipes["Daiquiri"]["directions"][] = "Martini glass. Garnish with a strawberrt slice and an extra mint leaf.";
+
+$recipes["Boadas"] = Array();
+$recipes["Boadas"]["location"] = Array ();
+$recipes["Boadas"]["ingredients"] = Array();
+$recipes["Boadas"]["about"] = Array();
+$recipes["Boadas"]["directions"] = Array();
+
+$recipes["Boadas"]["location"][] = "SPAIN";
+$recipes["Boadas"]["location"][] = "Boadas, Barcelona";
+
+  $recipes["Boadas"]["ingredients"][] = "1 measure white rum";
+  $recipes["Boadas"]["ingredients"][] = "1 measure red Dubonnet";
+  $recipes["Boadas"]["ingredients"][] = "1 measure orange Curacao";
+ 
+    $recipes["Boadas"]["about"][] = "This classic Catalan cocktail bar is just off Barcelona's busiest street, Las Ramblas. Founder";
+    $recipes["Boadas"]["about"][] = "Miguel Boadas learned his trade at Ernest Hemmingway's favourite drinking joint, La Floridita in";
+    $recipes["Boadas"]["about"][] = "Havana, and the principles he laid down in the early 1950s are still apparent today. There is no";
+    $recipes["Boadas"]["about"][] = "cocktail list, just three or four tuxedoed bartenders expertly mixing anything you request. If in";
+    $recipes["Boadas"]["about"][] = "doubt, just order the special of the day and you won't be disappointed.";
+   
+      $recipes["Boadas"]["directions"][] = "Stir and strain into a small Martini glass and decorate with a cherry or two.";
+     
+$recipes["Mojito"] = Array();
+$recipes["Mojito"]["location"] = Array ();
+$recipes["Mojito"]["ingredients"] = Array();
+$recipes["Mojito"]["about"] = Array();
+$recipes["Mojito"]["directions"] = Array();
+
+$recipes["Mojito"]["location"][] = "SPAIN";
+$recipes["Mojito"]["location"][] = "Chicote, Madrid";
+
+  $recipes["Mojito"]["ingredients"][] = "6 mint leaves";
+  $recipes["Mojito"]["ingredients"][] = "4 pineapple chunks";
+  $recipes["Mojito"]["ingredients"][] = "2 teaspoons brown sugar";
+  $recipes["Mojito"]["ingredients"][] = "2 measures golden rum";
+  $recipes["Mojito"]["ingredients"][] = "dash of pineapple juice";
+
+    $recipes["Mojito"]["about"][] = "Chicote stands out as an exquisite tribute to Madrid's drinking past. Opened in 1931 by Perico Chicote";
+    $recipes["Mojito"]["about"][] = "in order to 'mix drinks, lives and opinions', its decor has remained constant for over half a century.";
+    $recipes["Mojito"]["about"][] = "A favourite haunt of the city's bullfighters, this slice of history has also hosted many familiar names";
+    $recipes["Mojito"]["about"][] = "such as Frank Sinatra, Oliver Reed and Salvador Dali. The bartender insists that they make the best";
+    $recipes["Mojito"]["about"][] = "Mojitos in Spain. Their secret? 'Plenty of mint and modesty.' This was Hemmingway's 'secret' recipe,";
+    $recipes["Mojito"]["about"][] = "divulged to the founder 60 years ago.";
+   
+      $recipes["Mojito"]["directions"][] = "Muddle the mind, pineapple chunks and sugar in the bottom of a cocktail shaker.";
+      $recipes["Mojito"]["directions"][] = "Add the rum and shake with ice. Strain into a glass filled with crushed ice,";
+      $recipes["Mojito"]["directions"][] = "top up with the pineapple juice and stir. Garnish with a pineapple wedge and";
+      $recipes["Mojito"]["directions"][] = "a mint sprig.";
 
 
 
