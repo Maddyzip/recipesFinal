@@ -60,7 +60,7 @@ function Recipe(recipeName, contributorName, imageURL, recipeID) {
 		layoutTitle[0].innerHTML = this.recipeName;
 		
 		layoutContributor = document.querySelectorAll("#titleBanner h3");
-		layoutContributor[0].innerHTML = "Contributed by " + this.contributor;
+		layoutContributor[0].innerHTML = "Written by " + this.contributor;
     
     /*document.querySelector("#titleBanner h1").innerHTML = this.recipeName;
     document.querySelector("#contributor").innerHTML = this.contributor; 
@@ -97,8 +97,29 @@ WineMustard = new Recipe(
   HongKongSling = new Recipe(
   "Hong Kong Sling",
   "Alan Gage",
-  "https://images.unsplash.com/photo-1532641140-28932037521b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  "https://images.unsplash.com/photo-1511715112108-9acc6c3ff61f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   "HongKongSling" 
+);
+
+OrangeBlossom = new Recipe(
+  "Orange Blossom",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1586338211598-e2d64cf97e28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+  "OrangeBlossom" 
+);
+
+BloodyMary = new Recipe(
+  "The Original Bloody Mary",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1576874208717-bfe3af939a4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRvbWF0byUyMGp1aWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "BloodyMary" 
+);
+
+Fizz = new Recipe(
+  "Riviera Fizz",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1612547854156-3aae03949fed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9yYW5nZSUyMHBlZWwlMjBjb2NrdGFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  "Fizz" 
 );
 window.onload = function() {
   

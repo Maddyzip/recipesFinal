@@ -77,29 +77,124 @@ $recipes["WineMustard"]["location"][] = "'Ice' at the Four Seasons Hotel, Dublin
     $recipes["WineMustard"]["about"][] = "the cocktail menu boasts 104 recipes at the last count, it is the original ";
     $recipes["WineMustard"]["about"][] = "vodka creations, made with cosiderable skill and a healthy dose of irish cheek,";
     $recipes["WineMustard"]["about"][] = "that steal the show at ice. Hardly suprising, then, that the bar was the venue";
-    $recipes["WineMustard"]["about"][] = "for the official launch of the prestigious Irish FIlm & Television Awards in 2003";
+    $recipes["WineMustard"]["about"][] = "for the official launch of the prestigious Irish Film & Television Awards in 2003";
 
       $recipes["WineMustard"]["directions"][] = "Place all the ingredients in a cocktail shaker. Shake and double strain into";
       $recipes["WineMustard"]["directions"][] = "a chilled Martini glass and decorate with 2 extra raspberries on a cocktail stick.";
 
 $recipes["HongKongSling"] = Array();
+$recipes["HongKongSling"]["location"] = Array ();
 $recipes["HongKongSling"]["ingredients"] = Array();
 $recipes["HongKongSling"]["about"] = Array();
 $recipes["HongKongSling"]["directions"] = Array();
 
-  $recipes["HongKongSling"]["ingredients"][] = "3/4 cup white sugar";
-  $recipes["HongKongSling"]["ingredients"][] = "3/4 cup ground dry mustard";
-  $recipes["HongKongSling"]["ingredients"][] = "1/2 cup distilled white vinegar";
-  $recipes["HongKongSling"]["ingredients"][] = "1/2 cup dry white wine";
-  $recipes["HongKongSling"]["ingredients"][] = "3 eggs, beaten";
+$recipes["HongKongSling"]["location"][] = "the NETHERLANDS";
+$recipes["HongKongSling"]["location"][] = "Supper Club, Amsterdam";
 
-    $recipes["HongKongSling"]["about"][] = "Double Boiler";
-    $recipes["HongKongSling"]["about"][] = "Whisk";
-    $recipes["HongKongSling"]["about"][] = "Container";
+  $recipes["HongKongSling"]["ingredients"][] = "1½ measures gin";
+  $recipes["HongKongSling"]["ingredients"][] = "½ measure lychee liquer";
+  $recipes["HongKongSling"]["ingredients"][] = "1 measure lychee puree";
+  $recipes["HongKongSling"]["ingredients"][] = "1 measure slemon juice";
+  $recipes["HongKongSling"]["ingredients"][] = "½ measure sugar syrup";
+  $recipes["HongKongSling"]["ingredients"][] = "soda, to top up";
 
-      $recipes["HongKongSling"]["directions"][] = "In the top of a double boiler, whisk together sugar, mustard, vinegar, wine, and eggs.";
-      $recipes["HongKongSling"]["directions"][] = "Cook over simmering water, whisking constantly, for 8 minutes, or until thick.";
-      $recipes["HongKongSling"]["directions"][] = "Allow to cool in refrigerator. Store in sealed containers in refrigerator for up to 2 months.";
+    $recipes["HongKongSling"]["about"][] = "An unusual evening awaiits through the doors of the Supper club. Amidst the";
+    $recipes["HongKongSling"]["about"][] = "dazzling white decor, patrons lounge on beds lined with cushions while exquisite";
+    $recipes["HongKongSling"]["about"][] = "food and drinks are delivered to their tables. The entertainment is also truly";
+    $recipes["HongKongSling"]["about"][] = "eccentric - it might be a singer delivering an operatic aria, a mad magician or even";
+    $recipes["HongKongSling"]["about"][] = "a sculptor. The brainchild of chef and visiual artist Thorwald Voss, the Supper Club has";
+    $recipes["HongKongSling"]["about"][] = "a magnificent drinks list compiled by the Fabulous Shaker Boys. Expect a delicious";
+    $recipes["HongKongSling"]["about"][] = "assault on every one of your senses.";
+
+      $recipes["HongKongSling"]["directions"][] = "Place all the ingredients in a cocktail shaker with ice. Shake and strain over ice";
+      $recipes["HongKongSling"]["directions"][] = "into a sling glass. Stir and top up with soda. Serve with long straws and a lychee in its shell.";
+
+$recipes["OrangeBlossom"] = Array();
+$recipes["OrangeBlossom"]["location"] = Array ();
+$recipes["OrangeBlossom"]["ingredients"] = Array();
+$recipes["OrangeBlossom"]["about"] = Array();
+$recipes["OrangeBlossom"]["directions"] = Array();
+
+$recipes["OrangeBlossom"]["location"][] = "BELGIUM";
+$recipes["OrangeBlossom"]["location"][] = "Archiduc, Brussels";
+
+  $recipes["OrangeBlossom"]["ingredients"][] = "4 slices of orange";
+  $recipes["OrangeBlossom"]["ingredients"][] = "2 teaspoons almond syrup";
+  $recipes["OrangeBlossom"]["ingredients"][] = "2 measures gin";
+  $recipes["OrangeBlossom"]["ingredients"][] = "1 measure pink grapefruit juice";
+  $recipes["OrangeBlossom"]["ingredients"][] = "3 dashes of Angostura bitters";
+
+    $recipes["OrangeBlossom"]["about"][] = "Jazz pianist Stan Brenners opened Archiduc in the 1940s and its name remains";
+    $recipes["OrangeBlossom"]["about"][] = "synonymous with the music. Miles Davis, the legendary trumpeter, jammed there";
+    $recipes["OrangeBlossom"]["about"][] = "regularly in the 1980s and Europe's finest musicians continue to play there today.";
+    $recipes["OrangeBlossom"]["about"][] = "As with an old prohibition speakeasy, you ring the bell for admission. Once inside";
+    $recipes["OrangeBlossom"]["about"][] = "you see the Cotton Club in miniature: Art Deco styling, a half-moon mazzanine and";
+    $recipes["OrangeBlossom"]["about"][] = "leather bucket seats. There is no cocktail list, the staff will ask you a few key";
+    $recipes["OrangeBlossom"]["about"][] = "questions - long or short, sweet or sour, spirit preference - and then create something";
+    $recipes["OrangeBlossom"]["about"][] = "bespoke and invariably delicious.";
+
+      $recipes["OrangeBlossom"]["directions"][] = "Muddle the orange slices and syrup in the base of a highball glass. Fill the glass with crushed ice";
+      $recipes["OrangeBlossom"]["directions"][] = "and pour in the gin. Stir, top with the grapefruit juice and bitters and garnish with extra slices";
+      $recipes["OrangeBlossom"]["directions"][] = "of orange. Serve with straws.";
+
+$recipes["BloodyMary"] = Array();
+$recipes["BloodyMary"]["location"] = Array ();
+$recipes["BloodyMary"]["ingredients"] = Array();
+$recipes["BloodyMary"]["about"] = Array();
+$recipes["BloodyMary"]["directions"] = Array();
+
+$recipes["BloodyMary"]["location"][] = "FRANCE";
+$recipes["BloodyMary"]["location"][] = "Harry's New York Bar, Paris";
+
+  $recipes["BloodyMary"]["ingredients"][] = "2 measures vodka";
+  $recipes["BloodyMary"]["ingredients"][] = "dash of lemon juice";
+  $recipes["BloodyMary"]["ingredients"][] = "Worcestershire sauce, to taste";
+  $recipes["BloodyMary"]["ingredients"][] = "tomato juice, to top up";
+  $recipes["BloodyMary"]["ingredients"][] = "½ teaspoon cayenne pepper";
+  $recipes["BloodyMary"]["ingredients"][] = "salt and black pepper";
+
+    $recipes["BloodyMary"]["about"][] = "In 1911 Harry Mackalone was hired to run a parisan bar called Clancy's. The";
+    $recipes["BloodyMary"]["about"][] = "Eponymous Clancy had fled New York following a thwarted horce-racing scam,";
+    $recipes["BloodyMary"]["about"][] = "briging his bar, piece by piece, from Manhattan's East Side to Paris. After";
+    $recipes["BloodyMary"]["about"][] = "the Great War, Harry took over the bar and renamed it, hiring the legendary";
+    $recipes["BloodyMary"]["about"][] = "'Pete' Petoit. inventor of the Bloody Mary. Harry's became the place to be for";
+    $recipes["BloodyMary"]["about"][] = "American expatriates and hip Europeans alike, and was immoralized in the writings";
+    $recipes["BloodyMary"]["about"][] = "of Ernest Hemmingway and F. Scott Fitzgerald.";
+   
+      $recipes["BloodyMary"]["directions"][] = "Pour the vodka and lemon juice over ice in a highball glass, add a little";
+      $recipes["BloodyMary"]["directions"][] = "Worcestershire sauce and top up with tomato juice. Season with salt and both";
+      $recipes["BloodyMary"]["directions"][] = "peppers, stir to chill and garnish with lime wedges.";
+
+$recipes["Fizz"] = Array();
+$recipes["Fizz"]["location"] = Array ();
+$recipes["Fizz"]["ingredients"] = Array();
+$recipes["Fizz"]["about"] = Array();
+$recipes["Fizz"]["directions"] = Array();
+
+$recipes["Fizz"]["location"][] = "FRANCE";
+$recipes["Fizz"]["location"][] = "Le Loft, Cannes";
+
+  $recipes["Fizz"]["ingredients"][] = "2 measures vodka";
+  $recipes["Fizz"]["ingredients"][] = "dash of lemon juice";
+  $recipes["Fizz"]["ingredients"][] = "Worcestershire sauce, to taste";
+  $recipes["Fizz"]["ingredients"][] = "tomato juice, to top up";
+  $recipes["Fizz"]["ingredients"][] = "½ teaspoon cayenne pepper";
+  $recipes["Fizz"]["ingredients"][] = "salt and black pepper";
+
+    $recipes["Fizz"]["about"][] = "In 1911 Harry Mackalone was hired to run a parisan bar called Clancy's. The";
+    $recipes["Fizz"]["about"][] = "Eponymous Clancy had fled New York following a thwarted horce-racing scam,";
+    $recipes["Fizz"]["about"][] = "briging his bar, piece by piece, from Manhattan's East Side to Paris. After";
+    $recipes["Fizz"]["about"][] = "the Great War, Harry took over the bar and renamed it, hiring the legendary";
+    $recipes["Fizz"]["about"][] = "'Pete' Petoit. inventor of the Bloody Mary. Harry's became the place to be for";
+    $recipes["Fizz"]["about"][] = "American expatriates and hip Europeans alike, and was immoralized in the writings";
+    $recipes["Fizz"]["about"][] = "of Ernest Hemmingway and F. Scott Fitzgerald.";
+   
+      $recipes["Fizz"]["directions"][] = "Pour the vodka and lemon juice over ice in a highball glass, add a little";
+      $recipes["Fizz"]["directions"][] = "Worcestershire sauce and top up with tomato juice. Season with salt and both";
+      $recipes["Fizz"]["directions"][] = "peppers, stir to chill and garnish with lime wedges.";
+
+
+
 
 
 

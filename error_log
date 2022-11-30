@@ -440,3 +440,20 @@
 [30-Nov-2022 02:06:22 UTC] PHP Warning:  Undefined array key "location" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 108
 [30-Nov-2022 02:07:29 UTC] PHP Warning:  Undefined array key "location" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 108
 [30-Nov-2022 02:09:17 UTC] PHP Warning:  Undefined array key "location" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 108
+[30-Nov-2022 02:29:10 UTC] PHP Warning:  Undefined array key "location" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 115
+[30-Nov-2022 03:22:27 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:47 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Undefined array key "Fizz" in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
+[30-Nov-2022 03:22:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maddysz1/public_html/recipesFinal/recipes.php on line 176
