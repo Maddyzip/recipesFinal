@@ -495,7 +495,165 @@ $recipes["Glamour"]["location"][] = "The Glamour Bar, Shanghai";
       $recipes["Glamour"]["directions"][] = "cubes, shake well and strain into a chilled Martini glass.";
       $recipes["Glamour"]["directions"][] = "Decorate with a twist of orange.";
 
+$recipes["Aria"] = Array();
+$recipes["Aria"]["location"] = Array ();
+$recipes["Aria"]["ingredients"] = Array();
+$recipes["Aria"]["about"] = Array();
+$recipes["Aria"]["directions"] = Array();
 
+$recipes["Aria"]["location"][] = "CHINA";
+$recipes["Aria"]["location"][] = "Aria Bar, Beijing";
+
+  $recipes["Aria"]["ingredients"][] = "1 brown sugar cube";
+  $recipes["Aria"]["ingredients"][] = "3 drops of Angostura bitters";
+  $recipes["Aria"]["ingredients"][] = "1 measure grand Marnier";
+  $recipes["Aria"]["ingredients"][] = "Champagne, to top up";
+
+    $recipes["Aria"]["about"][] = "Aria is in the downstairs lobby of the China World Hotel. A sumptous";
+    $recipes["Aria"]["about"][] = "mahogany spiral staircase leads into this den of relaxed and dimly lit";
+    $recipes["Aria"]["about"][] = "elegance. There are two sections to the cocktail list - Classics and ";
+    $recipes["Aria"]["about"][] = "Bubbles - and the bartenders are continually finding new ways of flavoring";
+    $recipes["Aria"]["about"][] = "Champagne, using home-made fruit syrups and infused spirits. Aria's signature";
+    $recipes["Aria"]["about"][] = "cocktail is a simple twist on the Chapagne Classic, a rich herbal taste,";
+    $recipes["Aria"]["about"][] = "finishing with a lasting orange note.";
+
+      $recipes["Aria"]["directions"][] = "Place the sugar cube in the bottom of a chilled flute glass";
+      $recipes["Aria"]["directions"][] = "and soak in the Angostura bitters. Add the Grand Marnier and";
+      $recipes["Aria"]["directions"][] = "stir breifly. Top up with Champagne and decorate with an orange twist.";
+
+$recipes["Cucumber"] = Array();
+$recipes["Cucumber"]["location"] = Array ();
+$recipes["Cucumber"]["ingredients"] = Array();
+$recipes["Cucumber"]["about"] = Array();
+$recipes["Cucumber"]["directions"] = Array();
+
+$recipes["Cucumber"]["location"][] = "JAPAN";
+$recipes["Cucumber"]["location"][] = "Montoak, Tokyo";
+
+  $recipes["Cucumber"]["ingredients"][] = "2½ measures cucumber-infused sake";
+  $recipes["Cucumber"]["ingredients"][] = "1½ measures gin";
+  $recipes["Cucumber"]["ingredients"][] = "½ measure orange Curacao";
+
+    $recipes["Cucumber"]["about"][] = "Montoak is situated on a discreet side street off the bustling Omotesando";
+    $recipes["Cucumber"]["about"][] = "Avenu. There are no signs outside the bar marking its presence so look out";
+    $recipes["Cucumber"]["about"][] = "for the three-storey smoked-glass building with a terrace on the second floor.";
+    $recipes["Cucumber"]["about"][] = "The minimalist menu offers a selection of deluxe coffees, flavoured sakes and";
+    $recipes["Cucumber"]["about"][] = "sumptuous cocktails, both classic and contemporary; try the cooling but deceptively";
+    $recipes["Cucumber"]["about"][] = "powerful Cucumber Saketini.";
+
+      $recipes["Cucumber"]["directions"][] = "Stir all the ingredients together in a mixing glass with some";
+      $recipes["Cucumber"]["directions"][] = "ice cubes until thoroughly chilled. Strain into a chilled Martini";
+      $recipes["Cucumber"]["directions"][] = "glass and decorate with peeled cucumber slices.";
+
+$recipes["Dragon"] = Array();
+$recipes["Dragon"]["location"] = Array ();
+$recipes["Dragon"]["ingredients"] = Array();
+$recipes["Dragon"]["about"] = Array();
+$recipes["Dragon"]["directions"] = Array();
+
+$recipes["Dragon"]["location"][] = "CHINA";
+$recipes["Dragon"]["location"][] = "Dragon-i, Hong Kong";
+
+  $recipes["Dragon"]["ingredients"][] = "1½ measures Absolut Mandarin vodka";
+  $recipes["Dragon"]["ingredients"][] = "1 measure Cointreau";
+  $recipes["Dragon"]["ingredients"][] = "dash of lime juice";
+  $recipes["Dragon"]["ingredients"][] = "1 measure cranberry juice";
+
+    $recipes["Dragon"]["about"][] = "Decorated with phoenix-print lanterns and cream leather furnishings, the";
+    $recipes["Dragon"]["about"][] = "Dragon-i is designed to reflect a fusion of ancient Chinese and Japanese";
+    $recipes["Dragon"]["about"][] = "influences. Split into a dining area (the Red Room) and a public bar with";
+    $recipes["Dragon"]["about"][] = "dance floor (the Playground), Dragon-i is a popular night spot for both drinkers";
+    $recipes["Dragon"]["about"][] = "and diners. The cocktails, along with sake, are known to be strong; the Dragon's";
+    $recipes["Dragon"]["about"][] = "Fire is fresh and fiery. Dragon-i is also a good place for celebrity spotting -";
+    $recipes["Dragon"]["about"][] = "local superstar Jackie Chan has been known to pop in from time to time.";
+
+      $recipes["Dragon"]["directions"][] = "Pour all the ingredients into a cocktail shaker with some ice cubes.";
+      $recipes["Dragon"]["directions"][] = "Shake and double strain into a chilled Martini glass. Decorate with";
+      $recipes["Dragon"]["directions"][] = "an orange twist.";
+
+$recipes["Horizon"] = Array();
+$recipes["Horizon"]["location"] = Array ();
+$recipes["Horizon"]["ingredients"] = Array();
+$recipes["Horizon"]["about"] = Array();
+$recipes["Horizon"]["directions"] = Array();
+
+$recipes["Horizon"]["location"][] = "THAILAND";
+$recipes["Horizon"]["location"][] = "Bed Supper Club, Bangkok";
+
+  $recipes["Horizon"]["ingredients"][] = "1½ measures Zubrowka Bison Grass vodka";
+  $recipes["Horizon"]["ingredients"][] = "½ measure Xante pear liqueur";
+  $recipes["Horizon"]["ingredients"][] = "1 measure pressed apple juice";
+  $recipes["Horizon"]["ingredients"][] = "1 teaspoon passion fruit liqueur";
+  $recipes["Horizon"]["ingredients"][] = "dash of lime juice";
+
+    $recipes["Horizon"]["about"][] = "The Bed Supper Club extends an open invitation to 'wine, dine and recline'";
+    $recipes["Horizon"]["about"][] = "in what looks like a vast intergalactic spaceship. The blidingly white decor";
+    $recipes["Horizon"]["about"][] = "and candy coloured lighting casts an otherworldly glow. Beds are suspended from";
+    $recipes["Horizon"]["about"][] = "the walls and space-age furniture adds to the theme. The staff are dressed to fit";
+    $recipes["Horizon"]["about"][] = "the scene, while the cocktails are named and presented with this sci-fi theme in";
+    $recipes["Horizon"]["about"][] = "mind, using clean, unfussy garnishes and striking glass wear.";
+
+      $recipes["Horizon"]["directions"][] = "Pour all the ingredietns into a cocktail shaker with some ice cubes.";
+      $recipes["Horizon"]["directions"][] = "Shake and double strain into a chilled martini glass. Decorate with";
+      $recipes["Horizon"]["directions"][] = "a lemon twist.";
+
+$recipes["Rollin"] = Array();
+$recipes["Rollin"]["location"] = Array ();
+$recipes["Rollin"]["ingredients"] = Array();
+$recipes["Rollin"]["about"] = Array();
+$recipes["Rollin"]["directions"] = Array();
+
+$recipes["Rollin"]["location"][] = "THAILAND";
+$recipes["Rollin"]["location"][] = "Rasta Baby, Koh Samui";
+
+  $recipes["Rollin"]["ingredients"][] = "2 measures Thai whisky";
+  $recipes["Rollin"]["ingredients"][] = "dash of banana liquer";
+  $recipes["Rollin"]["ingredients"][] = "dash of raspberry liquer";
+  $recipes["Rollin"]["ingredients"][] = "dash of lime juice";
+  $recipes["Rollin"]["ingredients"][] = "2 measures orange juice";
+  $recipes["Rollin"]["ingredients"][] = "2 measures pineapple juice";
+
+    $recipes["Rollin"]["about"][] = "Set on Bophut Beach, the Rasta Baby has a perfect location, secluded yet easy";
+    $recipes["Rollin"]["about"][] = "to find and close enough to the sea to grab a cooling dip at any time. The bar";
+    $recipes["Rollin"]["about"][] = "is as easy-going as its name suggests and is part of a small resort complex offering";
+    $recipes["Rollin"]["about"][] = "basic accomodation in the form of beach huts. A selection of cokctails by the pitcher";
+    $recipes["Rollin"]["about"][] = "is on offer from the bar, along with ice-cold local beers and traditional Thai dishes.";
+    $recipes["Rollin"]["about"][] = "The resident DJ provides the vibes, the bartenders put on a show of fire juggling, and";
+    $recipes["Rollin"]["about"][] = "the party usually goes until dawn.";
+
+      $recipes["Rollin"]["directions"][] = "Pour all the ingredients into a cocktail shaker with some ice cubes.";
+      $recipes["Rollin"]["directions"][] = "Shake and strain into an ice-filled highball glass. Garnish with slices";
+      $recipes["Rollin"]["directions"][] = "of orange and cherries and serve with long straws.";
+
+$recipes["Sling"] = Array();
+$recipes["Sling"]["location"] = Array ();
+$recipes["Sling"]["ingredients"] = Array();
+$recipes["Sling"]["about"] = Array();
+$recipes["Sling"]["directions"] = Array();
+
+$recipes["Sling"]["location"][] = "SINGAPORE";
+$recipes["Sling"]["location"][] = "The Long Bar, Singapore";
+
+  $recipes["Sling"]["ingredients"][] = "1 measure gin";
+  $recipes["Sling"]["ingredients"][] = "½ measure cherry brandy";
+  $recipes["Sling"]["ingredients"][] = "¼ measure Cointreau";
+  $recipes["Sling"]["ingredients"][] = "¼ measure Dom Benedictine";
+  $recipes["Sling"]["ingredients"][] = "½ measure grenadine";
+  $recipes["Sling"]["ingredients"][] = "½ measure lime juice";
+  $recipes["Sling"]["ingredients"][] = "5 measures of pineapple juice";
+  $recipes["Sling"]["ingredients"][] = "dash of Angostura bitters";
+
+    $recipes["Sling"]["about"][] = "Home to one of the most famous cokctails ever invented, The Long Bar ar Raffles";
+    $recipes["Sling"]["about"][] = "Hotel will forever occupy a key position in the history of cocktails. The house";
+    $recipes["Sling"]["about"][] = "specialty, the Singapore Sling, was first concocted by bartender Mr Ngiam Tong Boon";
+    $recipes["Sling"]["about"][] = "in 1910. Since then, The Long Bar has become a tourist magnet - so much so that,";
+    $recipes["Sling"]["about"][] = "for the price of your 'Sing Sling', you get to keep the glass. Another grand tradition";
+    $recipes["Sling"]["about"][] = "here is to discard your peanut shells on the floor - a true sign of hospitality and a";
+    $recipes["Sling"]["about"][] = "rare treat given the notoriously stringent litering laws in singapore.";
+
+      $recipes["Sling"]["directions"][] = "Pour all the ingredients into a cocktail shaker with some ice. Shake and";
+      $recipes["Sling"]["directions"][] = "Shake and strain over ice cubes in a sling glass. Decorate with a slice of";
+      $recipes["Sling"]["directions"][] = "pineapple and a cherry.";
 
 
 

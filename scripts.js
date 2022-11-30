@@ -234,6 +234,56 @@ Sea = new Recipe(
   "https://media.istockphoto.com/id/890771104/photo/an-alcoholic-cosmopolitan-cocktail-is-on-the-bar-space-for-text.jpg?s=612x612&w=0&k=20&c=aAxOqfiSRHmy--xP6XjH-us6vrdS6RfuEuQH-ZA3i34=",
   "Sea" 
 );
+
+Glamour = new Recipe(
+  "The Glamour Martini",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/1311943396/photo/magnificent-view-on-wine-glass-with-red-drink-decorated-with-fresh-citrus-zest-on-bar.jpg?s=612x612&w=0&k=20&c=-VDh4Lxr5EhnKAMrylzq_z9enWuU7mUh3fIWWVSKfVo=",
+  "Glamour" 
+);
+
+Aria = new Recipe(
+  "Aria Classic",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/1271345613/photo/cocktail.jpg?s=612x612&w=0&k=20&c=3EMuKNVzuHqoAZp6eMnSHngigAj-L4TG1tlCY6wH6Wc=",
+  "Aria" 
+);
+
+Cucumber = new Recipe(
+  "Cucumber Saketini",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1576670393064-0063c3492d38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VjdW1iZXIlMjBtYXJ0aW5pfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "Cucumber" 
+);
+
+Dragon = new Recipe(
+  "Dragon's Fire",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/950057612/photo/cocktail-on-a-black-background.jpg?s=612x612&w=0&k=20&c=FFLiBnViXd0CSU9cGh9d4Xw39Ocyj4QpGtrg4462l7g=",
+  "Dragon" 
+);
+
+Horizon = new Recipe(
+  "Horizon",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/1360643918/photo/sidecar-or-between-the-sheets-cocktail-with-lemon.jpg?s=612x612&w=0&k=20&c=pt3zC2YinFJYa5jgtkr1OPUEkYu1oHQQPesnVg83viM=",
+  "Horizon" 
+);
+
+Rollin = new Recipe(
+  "Rollin' Stoned",
+  "Alan Gage",
+  "https://media.istockphoto.com/id/499543140/photo/old-fashioned-cocktail.jpg?s=612x612&w=0&k=20&c=p9KmIGAU16wf59j3CBx28CU3kvPmwbHAhNf7ickc0Is=",
+  "Rollin" 
+);
+
+Sling = new Recipe(
+  "Singapore Sling",
+  "Alan Gage",
+  "https://images.unsplash.com/photo-1601924381523-019b78541b95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNsaW5nJTIwY29ja3RhaWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+  "Sling" 
+);
+
 window.onload = function() {
   
 	
