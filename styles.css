@@ -2,12 +2,22 @@
   box-sizing: border-box;
 }
 
-
+#recipeColumns h4 {
+  color:#1b812c;
+  font-size: 30px;
+  margin: 0;
+    font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+  list-style-type: square;
+  
+}
 body {
- font-family: times new Roman;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
   background-color: whitesmoke;
   padding: 0;
   margin: 0;
+  color:#1b812c;
 }
 
 
@@ -94,15 +104,7 @@ ul {
 #location {
   list-style: none;
 }
-#recipeColumns h4 {
-  color:#1b812c;
-  font-size: 30px;
-  margin: 0;
-    font-family: 'Press Start 2P', cursive;
-font-family: 'Roboto', sans-serif;
-  list-style-type: square;
-  
-}
+
 
 .makeblue {color: #87bdd8; }
  .makeBlue:hover {color: #87bdd8; }
